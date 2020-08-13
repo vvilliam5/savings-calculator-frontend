@@ -9,6 +9,7 @@
         id="email"
         type="text"
         placeholder="EmaIl"
+        required
         v-model.trim="loginCredentials.email"
       />
     </div>
@@ -19,6 +20,7 @@
         id="password"
         type="password"
         placeholder="Password"
+        required
         v-model="loginCredentials.password"
       />
       <!-- <p class="text-red-500 text-xs italic">Please choose a password.</p> -->
